@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+header {
+    padding-bottom: 96px;
+}
+
+.header-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 48px;
+}
+
+h2 {
+    text-align: center;
+    padding: 48px;
+}
+
+.random-info-cnt {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 48px;
+}
+
+.img-subtext {
+    color: #445c7c;
+    text-align: center;
+    width: 200px;
+    padding: 20px;
+}
+
+.image-box {
+    width: 170px;
+    height: 175px;
+    border: 4px solid #3882F6;
+    border-radius: 25px;
+}
+
+.quote-section {
+    padding: 96px;
+}
+
+.quote-author {
+    text-align: end;
+}
+
+.logo-links-container {
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+footer {
+    text-align: center;
+    color: #F9FAF8;
+    padding: 24px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button-one {
+    background-color: #3882F6;
+    padding: 8px;
+    color: #F9FAF8;
+    border-radius: 5px;
+    border: none;
+    width: 85px;
+}
+
+.button-two {
+    background-color: #3882F6;
+    padding: 8px;
+    color: #F9FAF8;
+    border-radius: 5px;
+    width: 85px;
+    border-color: #F9FAF8;
+    border-style: solid;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    color: #101a29;
+    font-weight: bold;
+}
+
+.call-to-action { 
+    padding: 96px;
+}
+
+.cta-background {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 48px 12px;
+    border-radius: 15px;
+}
+
+.cta-h-t {
+    display: block;
+}
+
+img {
+    border-radius: 15px;
+}
